@@ -1,4 +1,4 @@
-export class Car {
+export interface Car {
     id: number;
     model: string;
     color: string;
