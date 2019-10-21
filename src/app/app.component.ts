@@ -10,7 +10,7 @@ import { NgForm } from '@angular/forms';
 })
 export class AppComponent implements OnInit {
 
-  car: Car = new Car();
+  car = {} as Car;
   cars: Car[];
 
   constructor(private carService: CarService) {}
@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
   cleanForm(form: NgForm) {
     this.getCars();
     form.resetForm();
-    this.car = new Car();
+    this.car = {} as Car;
   }
 
 }
