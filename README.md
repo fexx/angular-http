@@ -1,5 +1,7 @@
 # AngularHttp
 
+More details: Consumindo API REST com HttpClient no Angular 8 (https://medium.com/@fernandoevangelista_28291/consumindo-api-rest-com-httpclient-no-angular-8-62c5d733ffb6)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
 ## Development server
